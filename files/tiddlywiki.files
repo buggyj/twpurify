@@ -1,0 +1,12 @@
+{
+	"tiddlers": [
+		{
+			"file": "twpurify.js",
+			"fields": {
+				"type": "application/javascript",
+				"title": "$:/plugins/bj/tiddlyprism/twpurify.js",
+				"module-type": "library"
+			}
+		}
+	]
+}

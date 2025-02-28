@@ -26,7 +26,7 @@ with bash the follow command can be used to change the paths these files contain
 
 WARNING!!!!! CHECK YOU ARE CURRENTLY IN THE CORRECT DIRECTORY (FOR EXAMPLE myproj1)
 
-find . -type f -not -path '*/.git/*'  -exec sed -i "s|developer/buildtw|$(basename "$(dirname "$PWD")")/$(basename "$PWD")|g" {} + 
+find . -type f -not -path '*/.git/*'  -exec sed -i "s|bj/twpurify|$(basename "$(dirname "$PWD")")/$(basename "$PWD")|g" {} + 
 
 Create a subdirectory call 'files'
 Place your projects files in the 'files' subdirectory.
